@@ -37,5 +37,5 @@ def string_to_int(s: str) -> int:
 
     return val
 
-    # This is nitfy functools solution, but I think it is harder to read.
+    # This is a nifty functools solution, but I think it is harder to read.
     # return reduce(lambda x, c: x * 10 + string.digits.index(c), s[(s[0] == '-' or s[0] == '+'):], 0) * (-1 if s[0] == '-' else 1)
